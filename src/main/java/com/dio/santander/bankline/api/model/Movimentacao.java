@@ -32,7 +32,7 @@ public class Movimentacao {
 	private MovimentacaoTipo tipo;
 	
 	@Column(name ="id_conta")
-	private Integer idconta;
+	private Integer idConta;
 	
 	public Integer getId() {
 		return id;
@@ -64,11 +64,11 @@ public class Movimentacao {
 	public void setTipo(MovimentacaoTipo tipo) {
 		this.tipo = tipo;
 	}
-	public Integer getIdconta() {
-		return idconta;
+	public Integer getIdConta() {
+		return idConta;
 	}
-	public void setIdConta(Integer idconta) {
-		this.idconta = idconta;
+	public void setIdConta(Integer idConta) {
+		this.idConta = idConta;
 	}
 	
 }
